@@ -20,3 +20,13 @@ ipch
 *.tlog
 *.log
 *.pdb
+#rails ignore
+.bundle
+db/*.sqlite3*
+tmp/**/*
+tmp/*
+doc/api
+doc/app
+*.swp
+*~
+.DS_Store
