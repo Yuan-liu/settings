@@ -1,0 +1,9 @@
+"2.3.1 (created: 2010/04/07 18:56:53)
+
+set complete=lsbht
+set guioptions=nm
+set runtimepath=/home/yuan/.vimperator
+set wildoptions=auto
+source! /home/yuan/.vimperatorrc.local
+
+" vim: set ft=vimperator:
