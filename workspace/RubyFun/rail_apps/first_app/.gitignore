@@ -1,0 +1,32 @@
+# Lines starting with '#' are considered comments.
+# Ignore any file named foo.txt.
+foo.txt
+# Ignore (generated) html files,
+*.html
+# except foo.html which is maintained by hand.
+!foo.html
+# Ignore objects and archives.
+*.[oa]
+*.obj
+_ReSharper*
+*.exe
+*.zip
+*.usr
+*.sdf
+*.suo
+ipch
+*.txt
+*.user
+*.tlog
+*.log
+*.pdb
+#rails ignore
+.bundle
+db/*.sqlite3*
+tmp/**/*
+tmp/*
+doc/api
+doc/app
+*.swp
+*~
+.DS_Store
