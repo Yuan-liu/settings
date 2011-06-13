@@ -182,7 +182,8 @@ elseif has('unix')
 let &guifont="Monospace 10"
 endif
 " vim: set ft=vim :
-colorscheme desert
+"colorscheme desert
+colorscheme molokai
 syntax enable
 set ruler
 set showcmd
@@ -215,12 +216,7 @@ set lines=35 columns=99
 source $VIMRUNTIME/macros/matchit.vim
 " Add recently accessed projects menu (project plugin)
 set viminfo^=!
- 
-" Minibuffer Explorer Settings
-let g:miniBufExplMapWindowNavVim = 1
-let g:miniBufExplMapWindowNavArrows = 1
-let g:miniBufExplMapCTabSwitchBufs = 1
-let g:miniBufExplModSelTarget = 1
+
  
 " Change which file opens after executing :Rails command
 let g:rails_default_file='config/database.yml'
